@@ -10,8 +10,13 @@ This is my journal of the design and building process of **Marx Generator (Pulse
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/166).
 
 
-## 10/4/2025 - Did some research + basic BOM  
+## 10/4/2025 11:28 PM - Did some research + basic BOM  
 
 Created the BOM which consists of some capacitors, resistors, a transformer, and some 3d printing filament. The great thing about marx generators is that they can be made for insanely cheap and produce insanely high amounts of power. The downside is that the amount of UV produced is atrocious so you better have good safety equipment. ![Screenshot 2025-10-04 162732.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDM2LCJwdXIiOiJibG9iX2lkIn19--eb4e3840f00b5427d2e3da306d2df22dd046e6a2/Screenshot%202025-10-04%20162732.png)
+  
+
+## 10/4/2025 11:51 PM - Created the schematic  
+
+Drew out the schematic for the 10 stage Marx generator on a piece of paper for reference. It'll be easier for anyone to recreate with my somewhat hopefully generally clear schematic? I think at least it should work well. I plan to solder the leads straight to each other to make the easiest spark gap, so I need to CAD a base for the marx generator. ![IMG_3697.JPG](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDM3LCJwdXIiOiJibG9iX2lkIn19--c3fd974188d7b650ee380bd13fcc412480030eb8/IMG_3697.JPG)
   
 
