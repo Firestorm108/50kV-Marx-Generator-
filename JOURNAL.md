@@ -20,3 +20,8 @@ Created the BOM which consists of some capacitors, resistors, a transformer, and
 Drew out the schematic for the 10 stage Marx generator on a piece of paper for reference. It'll be easier for anyone to recreate with my somewhat hopefully generally clear schematic? I think at least it should work well. I plan to solder the leads straight to each other to make the easiest spark gap, so I need to CAD a base for the marx generator. ![IMG_3697.JPG](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDM3LCJwdXIiOiJibG9iX2lkIn19--c3fd974188d7b650ee380bd13fcc412480030eb8/IMG_3697.JPG)
   
 
+## 10/5/2025 - Designed the base  
+
+The base is really simple and was a quick design but there's not much more to it. Holes for the spark gaps and that's it. Even those aren't necessary but it helps save some filament so I thought it'd be a good idea. Most bases are just straight up made of a wood block so there's not much more to it here. I'd say that the design is finished by now so I'll go ahead and update the README and polish the repo to be shipped.![Screenshot 2025-10-04 170137.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQwLCJwdXIiOiJibG9iX2lkIn19--23b1bc7e5c1fc317ff847db01d567214b786e708/Screenshot%202025-10-04%20170137.png)
+  
+
