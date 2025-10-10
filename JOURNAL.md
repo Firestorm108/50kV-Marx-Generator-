@@ -6,22 +6,33 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **Marx Generator (Pulse 50kV)**.  
+This is my journal of the design and building process of **Marx Generator (Pulse 30kV)**.  
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/166).
 
 
-## 10/4/2025 11:28 PM - Did some research + basic BOM  
+## 10/4/2025 4:28 PM - Did some research + basic BOM  
 
 Created the BOM which consists of some capacitors, resistors, a transformer, and some 3d printing filament. The great thing about marx generators is that they can be made for insanely cheap and produce insanely high amounts of power. The downside is that the amount of UV produced is atrocious so you better have good safety equipment. ![Screenshot 2025-10-04 162732.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDM2LCJwdXIiOiJibG9iX2lkIn19--eb4e3840f00b5427d2e3da306d2df22dd046e6a2/Screenshot%202025-10-04%20162732.png)
   
 
-## 10/4/2025 11:51 PM - Created the schematic  
+## 10/4/2025 4:51 PM - Created the schematic  
 
 Drew out the schematic for the 10 stage Marx generator on a piece of paper for reference. It'll be easier for anyone to recreate with my somewhat hopefully generally clear schematic? I think at least it should work well. I plan to solder the leads straight to each other to make the easiest spark gap, so I need to CAD a base for the marx generator. ![IMG_3697.JPG](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDM3LCJwdXIiOiJibG9iX2lkIn19--c3fd974188d7b650ee380bd13fcc412480030eb8/IMG_3697.JPG)
   
 
-## 10/5/2025 - Designed the base  
+## 10/4/2025 5 PM - Designed the base  
 
 The base is really simple and was a quick design but there's not much more to it. Holes for the spark gaps and that's it. Even those aren't necessary but it helps save some filament so I thought it'd be a good idea. Most bases are just straight up made of a wood block so there's not much more to it here. I'd say that the design is finished by now so I'll go ahead and update the README and polish the repo to be shipped.![Screenshot 2025-10-04 170137.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQwLCJwdXIiOiJibG9iX2lkIn19--23b1bc7e5c1fc317ff847db01d567214b786e708/Screenshot%202025-10-04%20170137.png)
+  
+
+## 10/9/2025 - Updated the BOM / Fixed input transformer  
+
+Originally, I was going to use a 5kV NST. I have replaced it with a 3kV NST which will lower the output drastically but it is also a lot cheaper. I was requested to make the transformer myself, however that would not be possible within the budget. This is due to a few reasons:
+-Marx generators require a DC or low frequency AC input
+-Flyback transformers (which are able to be self made), output at very high frequency.
+-Winding a low frequency HV transformer is quite expensive. Think of MOTs, which are huge bricks of iron and copper. An NST is less of a 'brick', but it still requires hard to obtain cores.
+
+TLDR: Low frequency HV transformers are not viable to make as a hobbyist and I have switched the original $25 NST for a cheaper, more affordable $10 one.
+![CleanShot 2025-10-09 at 17.56.17@2x.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTMxNywicHVyIjoiYmxvYl9pZCJ9fQ==--c7fb9f62252372e6895074b347e716923095e7bd/CleanShot%202025-10-09%20at%2017.56.17%402x.png)
   
 
