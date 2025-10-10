@@ -25,7 +25,7 @@ Drew out the schematic for the 10 stage Marx generator on a piece of paper for r
 The base is really simple and was a quick design but there's not much more to it. Holes for the spark gaps and that's it. Even those aren't necessary but it helps save some filament so I thought it'd be a good idea. Most bases are just straight up made of a wood block so there's not much more to it here. I'd say that the design is finished by now so I'll go ahead and update the README and polish the repo to be shipped.![Screenshot 2025-10-04 170137.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQwLCJwdXIiOiJibG9iX2lkIn19--23b1bc7e5c1fc317ff847db01d567214b786e708/Screenshot%202025-10-04%20170137.png)
   
 
-## 10/9/2025 - Updated the BOM / Fixed input transformer  
+## 10/9/2025 5 PM - Updated the BOM / Fixed input transformer  
 
 Originally, I was going to use a 5kV NST. I have replaced it with a 3kV NST which will lower the output drastically but it is also a lot cheaper. I was requested to make the transformer myself, however that would not be possible within the budget. This is due to a few reasons:
 -Marx generators require a DC or low frequency AC input
@@ -34,5 +34,12 @@ Originally, I was going to use a 5kV NST. I have replaced it with a 3kV NST whic
 
 TLDR: Low frequency HV transformers are not viable to make as a hobbyist and I have switched the original $25 NST for a cheaper, more affordable $10 one.
 ![CleanShot 2025-10-09 at 17.56.17@2x.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTMxNywicHVyIjoiYmxvYl9pZCJ9fQ==--c7fb9f62252372e6895074b347e716923095e7bd/CleanShot%202025-10-09%20at%2017.56.17%402x.png)
+  
+
+## 10/9/2025 6 PM - Created a CAD of the layout  
+
+The original CAD was just the base, but in addition to the 2D schematic a 3d view of the circuit would also be helpful to anyone else wanting to build this. While making the CAD, I realized that I might scavenge some microwave diodes in order to increase performance of the generator with the NST if it's not living up to my standards.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTMyNywicHVyIjoiYmxvYl9pZCJ9fQ==--b82917f9b423377dbb37d928aa947cfbae692cc5/image.png)
   
 
